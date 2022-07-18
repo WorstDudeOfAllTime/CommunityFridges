@@ -1,0 +1,14 @@
+.marker {
+    border: 2px solid black;
+    background-image:url('fridge.png');
+  }
+  .overlay-box{
+    position: absolute;
+    height: 400px;
+    width: 250px;
+    background: rgba( 245, 245, 245, .8);
+    z-index: 3;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    margin: 10px 0px 0px 10px;
+  }

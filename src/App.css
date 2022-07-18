@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+.map-container {
+  height: 100vh;
+  }
+  .logo-box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+    height: 270px;
+    width: 200px;
+    background: rgba(255, 255, 255, .75);
+    border-radius: 10px;
+    z-index: 3;
+    box-shadow: 0px 0px 8px black;
+  }
+  .search-form {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .pop-up-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: auto;
+    background: rgb(255, 93, 255);
+    border: 3px solid black;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    transition: 1s;
+  }
+.pop-up-box img{
+  margin: 5px 10px;
+  padding: 5px 5px;
+}
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 1;}
+  }
+  .fridge-pic{
+    border-radius: 10px;
+  }
