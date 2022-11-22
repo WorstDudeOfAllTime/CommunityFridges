@@ -9,7 +9,14 @@
 .navContainer{
   height: 7%;
   width: 100%;
-  background: white;
+  background: #75B8C8;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-left: 30px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
 }
 .mapContainer{
   height: 93%;
