@@ -1,0 +1,20 @@
+.siteContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navContainer{
+  height: 7%;
+  width: 100%;
+  background: white;
+}
+.mapContainer{
+  height: 93%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

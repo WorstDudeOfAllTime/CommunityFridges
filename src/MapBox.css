@@ -1,0 +1,61 @@
+.mapHolder {
+  height: 100%;
+  width: 100%;
+  }
+  .logo-box{  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+    height: 270px;
+    width: 200px;
+    background: rgba(255, 255, 255, .75);
+    border-radius: 10px;
+    z-index: 3;
+    box-shadow: 0px 0px 8px black;
+  }
+  .search-form {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .pop-up-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    max-width: auto;
+    background: rgb(255, 93, 255);
+    border: 3px solid black;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    transition: 1s;
+  }
+.pop-up-box img{
+  margin: 5px 10px;
+  padding: 5px 5px;
+}
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 1;}
+  }
+  .fridge-pic{
+    border-radius: 10px;
+  }
+.popUpHalf {
+  height: 100%;
+  width: 50%;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
