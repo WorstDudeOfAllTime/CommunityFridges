@@ -1,0 +1,6 @@
+Fridge Locator
+ability to enter your address and find the closest fridge/pantry
+ - in order to do that we need to convert the address into latitude and longitude
+
+ Sort by fridge and pantry
+  - each needs a tag and then you need to be able to sort 
