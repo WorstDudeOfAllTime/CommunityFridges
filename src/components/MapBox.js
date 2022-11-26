@@ -6,6 +6,8 @@ import Map, { Marker, Popup } from 'react-map-gl';
 import fridge from './../IMG_0366.jpg';
 import instagram from './../icons8-instagram-50.png';
 import website from './../icons8-website-48.png';
+import geolocator from 'geolocator';
+
 // @ts-ignore
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
@@ -17,14 +19,43 @@ const data = require('./../fridges.json');
 const MapBox = () => {
   const [status, setStatus] = useState(false);
   const [selectedFridge, setSelectedFridge] = useState(null);
+  const [theAddress, setTheAddress] = useState('');
   const [viewState, setViewState] = useState({
     latitude: 39.952,
     longitude: -75.165,
     zoom: 12,
   });
+
+  const addressSubmit = async (address) => {
+    try {
+      const newAddress = address.replaceAll(' ', '%20');
+      const addressFetch = await fetch(
+        `https://api.mapbox.com/geocoding/v5/mapbox.places/${newAddress}.json?proximity=ip&types=place%2Cpostcode%2Caddress&access_token=${MAPBOX_TOKEN}`);
+      const addressData = await addressFetch.json();
+      console.log(addressData);
+    } catch (err) {
+      console.log(err);
+    }
+  };
   return (
     <div className="mapHolder">
-      <div className="overlay-box ">
+      <div className="overlay-box">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            console.log(theAddress);
+            addressSubmit(theAddress);
+          }}
+        >
+          <input
+            type="text"
+            value={theAddress}
+            onChange={(e) => {
+              setTheAddress(e.target.value);
+            }}
+          ></input>
+          <button> submit </button>
+        </form>
         {status ? (
           <div
             style={{

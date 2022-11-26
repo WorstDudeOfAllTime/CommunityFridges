@@ -25,6 +25,7 @@
   .overlay-box{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     position: absolute;
     height: 400px;
     width: 250px;
