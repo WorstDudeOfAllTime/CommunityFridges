@@ -25,15 +25,20 @@
   .overlay-box{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     position: absolute;
-    height: 400px;
-    width: 250px;
-    background: rgba( 245, 245, 245, .8);
+    height: 93%;
+    width: 300px;
+    color: whitesmoke;
+    background: rgba(7, 7, 7, 0.8);
     z-index: 3;
-    border-radius: 20px;
     box-shadow: 0px 0px 5px black;
-    margin: 10px 0px 0px 10px;
+  }
+  .popup-stylings {
+    animation: fadeIn;
+    animation-duration: .5s;
+    transition: all .5s;
   }
   .pop-up-box{
     height: 100%;
@@ -44,8 +49,9 @@
     text-align: center;
     flex-direction: row;
     max-width: auto;
-    background: rgb(255, 93, 255);
+    background:rgba(248, 245, 245, 0.8);
     border: 3px solid black;
+    border-radius: 3px;
     animation-name: fadeIn;
     animation-duration: 1s;
     transition: 1s;
@@ -71,4 +77,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@keyframes fadeIn {
+  from {opacity: 0};
+  to {opacity: 1};
 }

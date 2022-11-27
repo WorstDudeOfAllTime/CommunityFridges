@@ -6,8 +6,6 @@ import Map, { Marker, Popup } from 'react-map-gl';
 import fridge from './../IMG_0366.jpg';
 import instagram from './../icons8-instagram-50.png';
 import website from './../icons8-website-48.png';
-import geolocator from 'geolocator';
-
 // @ts-ignore
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
@@ -32,7 +30,12 @@ const MapBox = () => {
       const addressFetch = await fetch(
         `https://api.mapbox.com/geocoding/v5/mapbox.places/${newAddress}.json?proximity=ip&types=place%2Cpostcode%2Caddress&access_token=${MAPBOX_TOKEN}`);
       const addressData = await addressFetch.json();
-      console.log(addressData);
+      setViewState({
+        latitude: addressData.features[0].center[1],
+        longitude: addressData.features[0].center[0],
+        zoom: 15
+      })
+      setTheAddress("");
     } catch (err) {
       console.log(err);
     }
@@ -85,7 +88,7 @@ const MapBox = () => {
           </div>
         ) : (
           <>
-            <h1>No fridge has been selected</h1>
+            <h1 style={{'textAlign' : 'center'}}>No location has been selected</h1>
           </>
         )}
       </div>
@@ -94,7 +97,7 @@ const MapBox = () => {
         style={{ height: '100%', width: '100%' }}
         onMove={(evt) => setViewState(evt.viewState)}
         mapboxAccessToken={MAPBOX_TOKEN}
-        mapStyle="mapbox://styles/mapbox/dark-v9"
+        mapStyle="mapbox://styles/mapbox/streets-v12"
         onClick={() => {
           setStatus(null);
         }}
@@ -120,6 +123,7 @@ const MapBox = () => {
                   ...viewState,
                   latitude: fridge.geometry.coordinates[1],
                   longitude: fridge.geometry.coordinates[0],
+                  zoom: 13
                 });
               }}
             ></Marker>
@@ -128,10 +132,10 @@ const MapBox = () => {
 
         {selectedFridge && (
           <Popup
+            className="popup-stylings"
             longitude={Number(selectedFridge.geometry.coordinates[0])}
             latitude={Number(selectedFridge.geometry.coordinates[1])}
             anchor="bottom"
-            style={{ maxWidth: '430px' }}
             onClose={() => {
               setSelectedFridge(null);
               setStatus(null);
@@ -139,12 +143,6 @@ const MapBox = () => {
           >
             <div className="pop-up-box">
               <div className="popUpHalf">
-                <img
-                  class="fridge-pic"
-                  src={fridge}
-                  style={{ height: '180px', width: '100px' }}
-                  alt="fridge"
-                />
               </div>
               <div className="popUpHalf info">
                 <h3 style={{ margin: '0' }}>

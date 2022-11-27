@@ -1,549 +1,582 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.158, 39.925]
-        },
-        "properties": {
-          "title": "Bok Building Fridge",
-          "address": "1901 S 9th Street, Philadelphia PA, 19148",
-          "description" : "",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.158, 39.925]
       },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.178, 39.937]
-        },
-        "properties": {
-          "title": "21st and Federal Fridge",
-          "address": "1200 S 21st Street, Philadelphia PA, 19146",
-          "description" : "",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.158, 39.935]
-        },
-        "properties": {
-          "title": "9th and Ellsworth",
-          "address": "1149 S 9th Street, Philadelphia, PA 19147",
-          "description" : "",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.170, 39.929]
-        },
-        "properties": {
-          "title": "15th and Morris",
-          "address": "1701 S 15th Street, Philadelphia PA, 19145",
-          "description" : "",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.175, 39.931]
-        },
-        "properties": {
-          "title": "Tasker and Cleveland",
-          "address": "1542 S Cleveland St, Philadelphia PA, 19146",
-          "description" : "",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      }, 
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.156, 39.919]
-        },
-        "properties": {
-          "title": "6th and Wolf",
-          "address": "516 Wolf St, Philadelphia, PA 19148",
-          "description" : "",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17426, 40.03430]
-        },
-        "properties": {
-          "title": "20 W Armat St",
-          "address": "20 W Armat St, Philadelphia, PA 19144",
-          "description" : "Germantown Community Fridge",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17749, 40.04014]
-        },
-        "properties": {
-          "title": "19 High St",
-          "address": "19 High St, Philadelphia, PA 19144",
-          "description" : "Germantown Community Fridge",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.12282, 39.98717]
-        },
-        "properties": {
-          "title": "2670 Coral St",
-          "address": "2670 Coral St, Philadelphia, PA 19125",
-          "description" : "Germantown Community Fridge",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      }, 
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17426, 40.03430]
-        },
-        "properties": {
-          "title": "20 W Armat St",
-          "address": "20 W Armat St, Philadelphia, PA 19144",
-          "description" : "Coral Street Fridge",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.19260, 40.01384]
-        },
-        "properties": {
-          "title": "3670 Midvale Avenue",
-          "address": "3670 Midvale Avenue, Philadelphia, PA 19129",
-          "description" : "East Falls Community Fridge",
-          "website" : "",
-          "instagram": "",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17061, 39.96343]
-        },
-        "properties": {
-          "title": "1924 Spring Garden St",
-          "address": "1924 Spring Garden St, Philadelphia, PA 19130",
-          "description" : "Spring Garden Community Pantry",
-          "website" : "linktr.ee/springgardencommunitypantry",
-          "instagram": "instagram.com/springgardencommunitypantry",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.22635, 39.95162]
-        },
-        "properties": {
-          "title": "511 S 52nd St",
-          "address": "51 S 52nd St, Philadelphia, PA 19143",
-          "description" : "The People's Fridge",
-          "website" : "patreon.com/peoplesfridge",
-          "instagram": "instagram.com/thefridgeon52nd",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17022, 40.03571]
-        },
-        "properties": {
-          "title": "Lena St and Church Lane",
-          "address": "Church Lane and Lena St Philadelphia, PA 19144",
-          "description" : "The Elephant Fridge",
-          "website" : "",
-          "instagram": "instagram.com/elephantfridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17181, 39.97764]
-        },
-        "properties": {
-          "title": "2206 W. Jefferson",
-          "address": "2206 W Jefferson St, Philadelphia, PA 19121",
-          "description" : "Umoja Community Fridge",
-          "website" : "linkr.ee/Umojacommunityfridge",
-          "instagram": "instagram.com/umojacommunityfridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.14790, 39.97093]
-        },
-        "properties": {
-          "title": "635 W Girard Ave",
-          "address": "635 W Girard Ave, Philadelphia, PA 19123",
-          "description" : "Mamatee Fridge Ambassador",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.12941, 39.98373]
-        },
-        "properties": {
-          "title": "2400 Coral St",
-          "address": "2400 Coral St, Philadelphia, PA 19125",
-          "description" : "Mamatee Fridge: Franny Lou's Porch",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.15336, 39.96230]
-        },
-        "properties": {
-          "title": "915 Spring Garden St",
-          "address": "915 Spring Garden St, Philadelphia, PA 19123",
-          "description" : "Mamatee Fridge: Triple Bottom Brewing",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.19728, 39.93547]
-        },
-        "properties": {
-          "title": "3200 Dickinson St",
-          "address": "3200 Dickinson St, Philadelphia, PA 19146",
-          "description" : "Mamatee Fridge: Stinger Square Park",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.19728, 39.93547]
-        },
-        "properties": {
-          "title": "1255 E Palmer St",
-          "address": "1255 E Palmer St, Philadelphia, PA 19146",
-          "description" : "Mamatee Fridge: Castellino's Italian Market",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.12272, 39.97931]
-        },
-        "properties": {
-          "title": "2401 E Letterly St",
-          "address": "2401 E Letterly St, Philadelphia, PA 19125",
-          "description" : "Mamatee Fridge: Alchemy Hair Lab",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.13276, 40.00056]
-        },
-        "properties": {
-          "title": "3231 N 2nd St",
-          "address": "3231 N 2nd St, Philadelphia, PA 19140",
-          "description" : "Mamatee Fridge: Caribe Towers",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.15604, 40.01575]
-        },
-        "properties": {
-          "title": "1717 W. Hunting Park Ave",
-          "address": "1717 W. Hunting Park Ave, Philadelphia, PA 19140",
-          "description" : "Mamatee Fridge: Opportunity Towers I & II",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.23142, 39.96705]
-        },
-        "properties": {
-          "title": "5524 Haverford Ave",
-          "address": "5524 Haverford Ave, Philadelphia, PA 19139",
-          "description" : "Mamatee Fridge: Opportunity Towers III",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.20974, 39.94439]
-        },
-        "properties": {
-          "title": "4600 Woodland Ave",
-          "address": "4600 Woodland Ave, Philadelphia, PA 19143",
-          "description" : "Mamatee Fridge: The Gables Cafe",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.18540, 39.98134]
-        },
-        "properties": {
-          "title": "3033 W. Glenwood Ave",
-          "address": "3033 W. Glenwood Ave, Philadelphia, PA 19121",
-          "description" : "Mamatee Fridge: Community Partnership School",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.17641, 40.02896]
-        },
-        "properties": {
-          "title": "234 Winona St",
-          "address": "234 Winona St, Philadelphia, PA 19144",
-          "description" : "Mamatee Fridge: 234 Winona St",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.1707, 39.96771]
-        },
-        "properties": {
-          "title": "2015 Fairmount Ave",
-          "address": "2015 Fairmount Ave, Philadelphia, PA 19130",
-          "description" : "Mamatee Fridge: Fairmount Bicycles",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.22778, 39.93488]
-        },
-        "properties": {
-          "title": "5801 Kingsessing Ave",
-          "address": "5801 Kingsessing Ave, Philadelphia, PA 19143",
-          "description" : "Mamatee Fridge: Myers Recreation Center",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.18016, 39.93933]
-        },
-        "properties": {
-          "title": "2204 Washington Ave",
-          "address": "2204 Washington Ave, Philadelphia, PA 19146",
-          "description" : "Mamatee Fridge: Porcos",
-          "website" : "https://www.mamateefridge.com/",
-          "instagram": "instagram.com/mamateefridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.20643, 39.96572]
-        },
-        "properties": {
-          "title": "4134 Lancaster Ave",
-          "address": "4134 Lancaster Ave, Philadelphia, PA 19104",
-          "description" : "Ronnie Vega Fridge",
-          "website" : "",
-          "instagram": "instagram.com/ronnievegafridge",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.15625, 39.98290]
-        },
-        "properties": {
-          "title": "1940 Liacouras Walk",
-          "address": "1940 Liacouras Walk, Philadelphia, PA 19122",
-          "description" : "Fridges and Family: 1940",
-          "website" : "",
-          "instagram": "instagram.com/fridgesandfamily",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.24243, 39.91996]
-        },
-        "properties": {
-          "title": "7044 Woodland Ave",
-          "address": "7044 Woodland Ave, Philadelphia, PA 19142",
-          "description" : "Fridges and Family: Woodland",
-          "website" : "",
-          "instagram": "instagram.com/fridgesandfamily",
-          "twitter" : "",
-          "facebook": ""
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-75.15849, 39.93511]
-        },
-        "properties": {
-          "title": "1149 S 9th St",
-          "address": "1149 S 9th St, Philadelphia, PA 19147",
-          "description" : "Fridges and Family: 9th St",
-          "website" : "",
-          "instagram": "instagram.com/fridgesandfamily",
-          "twitter" : "",
-          "facebook": ""
-        }
+      "properties": {
+        "title": "Bok Building Fridge",
+        "address": "1901 S 9th Street, Philadelphia PA, 19148",
+        "type": "Fridge/Pantry",
+        "description": "South Philadelphia Community Fridge",
+        "website": "https://southphillyfridge.com/",
+        "instagram": "https://www.instagram.com/southphlcommunityfridge/",
+        "twitter": "https://twitter.com/SouthPHLFridge",
+        "facebook": "https://www.facebook.com/southphlcommunityfridge"
       }
-    ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.178, 39.937]
+      },
+      "properties": {
+        "title": "21st and Federal Fridge",
+        "address": "1200 S 21st Street, Philadelphia PA, 19146",
+        "type": "Fridge/Pantry",
+        "description": "South Philadelphia Community Fridge",
+        "website": "https://southphillyfridge.com/",
+        "instagram": "https://www.instagram.com/southphlcommunityfridge/",
+        "twitter": "https://twitter.com/SouthPHLFridge",
+        "facebook": "https://www.facebook.com/southphlcommunityfridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.158, 39.935]
+      },
+      "properties": {
+        "title": "9th and Ellsworth",
+        "address": "1149 S 9th Street, Philadelphia, PA 19147",
+        "type": "Fridge/Pantry",
+        "description": "South Philadelphia Community Fridge",
+        "website": "https://southphillyfridge.com/",
+        "instagram": "https://www.instagram.com/southphlcommunityfridge/",
+        "twitter": "https://twitter.com/SouthPHLFridge",
+        "facebook": "https://www.facebook.com/southphlcommunityfridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17, 39.929]
+      },
+      "properties": {
+        "title": "15th and Morris",
+        "address": "1701 S 15th Street, Philadelphia PA, 19145",
+        "type": "Pantry Only",
+        "description": "South Philadelphia Community Fridge",
+        "website": "https://southphillyfridge.com/",
+        "instagram": "https://www.instagram.com/southphlcommunityfridge/",
+        "twitter": "https://twitter.com/SouthPHLFridge",
+        "facebook": "https://www.facebook.com/southphlcommunityfridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.175, 39.931]
+      },
+      "properties": {
+        "title": "Tasker and Cleveland",
+        "address": "1542 S Cleveland St, Philadelphia PA, 19146",
+        "type": "Pantry Only",
+        "description": "South Philadelphia Community Fridge",
+        "website": "https://southphillyfridge.com/",
+        "instagram": "https://www.instagram.com/southphlcommunityfridge/",
+        "twitter": "https://twitter.com/SouthPHLFridge",
+        "facebook": "https://www.facebook.com/southphlcommunityfridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.156, 39.919]
+      },
+      "properties": {
+        "title": "6th and Wolf",
+        "address": "516 Wolf St, Philadelphia, PA 19148",
+        "type": "Pantry Only",
+        "description": "South Philadelphia Community Fridge",
+        "website": "https://southphillyfridge.com/",
+        "instagram": "https://www.instagram.com/southphlcommunityfridge/",
+        "twitter": "https://twitter.com/SouthPHLFridge",
+        "facebook": "https://www.facebook.com/southphlcommunityfridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17426, 40.0343]
+      },
+      "properties": {
+        "title": "20 W Armat St",
+        "address": "20 W Armat St, Philadelphia, PA 19144",
+        "type": "Fridge/Pantry",
+        "description": "Germantown Community Fridge",
+        "website": "https://www.germantowncommunityfridge.com/",
+        "instagram": "https://www.instagram.com/germantownfridge/",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/germantowncommunityfridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17749, 40.04014]
+      },
+      "properties": {
+        "title": "19 High St",
+        "address": "19 High St, Philadelphia, PA 19144",
+        "type": "Fridge/Pantry",
+        "description": "Germantown Community Fridge",
+        "website": "https://www.germantowncommunityfridge.com/",
+        "instagram": "https://www.instagram.com/germantownfridge/",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/germantowncommunityfridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.12282, 39.98717]
+      },
+      "properties": {
+        "title": "2670 Coral St",
+        "address": "2670 Coral St, Philadelphia, PA 19125",
+        "type": "Fridge/Pantry",
+        "description": "Coral Street Fridge",
+        "website": "https://coralstreetfridge.com/",
+        "instagram": "https://www.instagram.com/coralstreetfridge/",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17426, 40.0343]
+      },
+      "properties": {
+        "title": "20 W Armat St",
+        "address": "20 W Armat St, Philadelphia, PA 19144",
+        "type": "Fridge/Pantry",
+        "website": "https://www.germantowncommunityfridge.com/",
+        "instagram": "https://www.instagram.com/germantownfridge/",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/germantowncommunityfridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1926, 40.01384]
+      },
+      "properties": {
+        "title": "3670 Midvale Avenue",
+        "address": "3670 Midvale Avenue, Philadelphia, PA 19129",
+        "type": "Fridge/Pantry",
+        "description": "East Falls Community Fridge",
+        "website": "https://eastfallscommunityfridge.com/",
+        "instagram": "https://www.instagram.com/eastfallscommunityfridge/",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/East-Falls-Community-Fridge-107312674636331"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17061, 39.96343]
+      },
+      "properties": {
+        "title": "1924 Spring Garden St",
+        "address": "1924 Spring Garden St, Philadelphia, PA 19130",
+        "type": "Fridge/Pantry",
+        "description": "Spring Garden Community Pantry",
+        "website": "https://linktr.ee/springgardencommunitypantry",
+        "instagram": "instagram.com/springgardencommunitypantry",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.22635, 39.95162]
+      },
+      "properties": {
+        "title": "511 S 52nd St",
+        "address": "511 S 52nd St, Philadelphia, PA 19143",
+        "type": "Pantry Only",
+        "description": "The People's Fridge",
+        "website": "patreon.com/peoplesfridge",
+        "instagram": "instagram.com/thefridgeon52nd",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/thepeoplesfridge215/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17022, 40.03571]
+      },
+      "properties": {
+        "title": "Lena St and Church Lane",
+        "address": "Church Lane and Lena St Philadelphia, PA 19144",
+        "type": "Fridge/Pantry",
+        "description": "The Elephant Fridge",
+        "website": "",
+        "instagram": "instagram.com/elephantfridge",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17181, 39.97764]
+      },
+      "properties": {
+        "title": "2206 W. Jefferson",
+        "address": "2206 W Jefferson St, Philadelphia, PA 19121",
+        "type": "Fridge/Pantry",
+        "description": "Umoja Community Fridge",
+        "website": "https://linktr.ee/Umojacommunityfridge",
+        "instagram": "instagram.com/umojacommunityfridge",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1479, 39.97093]
+      },
+      "properties": {
+        "title": "635 W Girard Ave",
+        "address": "635 W Girard Ave, Philadelphia, PA 19123",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge Ambassador",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.12941, 39.98373]
+      },
+      "properties": {
+        "title": "2400 Coral St",
+        "address": "2400 Coral St, Philadelphia, PA 19125",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Franny Lou's Porch",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.15336, 39.9623]
+      },
+      "properties": {
+        "title": "915 Spring Garden St",
+        "address": "915 Spring Garden St, Philadelphia, PA 19123",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Triple Bottom Brewing",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.19728, 39.93547]
+      },
+      "properties": {
+        "title": "3200 Dickinson St",
+        "address": "3200 Dickinson St, Philadelphia, PA 19146",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Stinger Square Park",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.19728, 39.93547]
+      },
+      "properties": {
+        "title": "1255 E Palmer St",
+        "address": "1255 E Palmer St, Philadelphia, PA 19146",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Castellino's Italian Market",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.12272, 39.97931]
+      },
+      "properties": {
+        "title": "2401 E Letterly St",
+        "address": "2401 E Letterly St, Philadelphia, PA 19125",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Alchemy Hair Lab",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.13276, 40.00056]
+      },
+      "properties": {
+        "title": "3231 N 2nd St",
+        "address": "3231 N 2nd St, Philadelphia, PA 19140",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Caribe Towers",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.15604, 40.01575]
+      },
+      "properties": {
+        "title": "1717 W. Hunting Park Ave",
+        "address": "1717 W. Hunting Park Ave, Philadelphia, PA 19140",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Opportunity Towers I & II",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.23142, 39.96705]
+      },
+      "properties": {
+        "title": "5524 Haverford Ave",
+        "address": "5524 Haverford Ave, Philadelphia, PA 19139",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Opportunity Towers III",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.20974, 39.94439]
+      },
+      "properties": {
+        "title": "4600 Woodland Ave",
+        "address": "4600 Woodland Ave, Philadelphia, PA 19143",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: The Gables Cafe",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1854, 39.98134]
+      },
+      "properties": {
+        "title": "3033 W. Glenwood Ave",
+        "address": "3033 W. Glenwood Ave, Philadelphia, PA 19121",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Community Partnership School",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.17641, 40.02896]
+      },
+      "properties": {
+        "title": "234 Winona St",
+        "address": "234 Winona St, Philadelphia, PA 19144",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: 234 Winona St",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1707, 39.96771]
+      },
+      "properties": {
+        "title": "2015 Fairmount Ave",
+        "address": "2015 Fairmount Ave, Philadelphia, PA 19130",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Fairmount Bicycles",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.22778, 39.93488]
+      },
+      "properties": {
+        "title": "5801 Kingsessing Ave",
+        "address": "5801 Kingsessing Ave, Philadelphia, PA 19143",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Myers Recreation Center",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.18016, 39.93933]
+      },
+      "properties": {
+        "title": "2204 Washington Ave",
+        "address": "2204 Washington Ave, Philadelphia, PA 19146",
+        "type": "Fridge/Pantry",
+        "description": "Mamatee Fridge: Porcos",
+        "website": "https://www.mamateefridge.com/",
+        "instagram": "instagram.com/mamateefridge",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/mamateefridge/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.20643, 39.96572]
+      },
+      "properties": {
+        "title": "4134 Lancaster Ave",
+        "address": "4134 Lancaster Ave, Philadelphia, PA 19104",
+        "type": "Fridge/Pantry",
+        "description": "Ronnie Vega Fridge",
+        "website": "",
+        "instagram": "instagram.com/ronnievegafridge",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.15625, 39.9829]
+      },
+      "properties": {
+        "title": "1940 Liacouras Walk",
+        "address": "1940 Liacouras Walk, Philadelphia, PA 19122",
+        "type": "Fridge/Pantry",
+        "description": "Fridges and Family: 1940",
+        "website": "",
+        "instagram": "instagram.com/fridgesandfamily",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.24243, 39.91996]
+      },
+      "properties": {
+        "title": "7044 Woodland Ave",
+        "address": "7044 Woodland Ave, Philadelphia, PA 19142",
+        "type": "Fridge/Pantry",
+        "description": "Fridges and Family: Woodland",
+        "website": "",
+        "instagram": "instagram.com/fridgesandfamily",
+        "twitter": "",
+        "facebook": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.15849, 39.93511]
+      },
+      "properties": {
+        "title": "1149 S 9th St",
+        "address": "1149 S 9th St, Philadelphia, PA 19147",
+        "type": "Fridge/Pantry",
+        "description": "Fridges and Family: 9th St",
+        "website": "",
+        "instagram": "instagram.com/fridgesandfamily",
+        "twitter": "",
+        "facebook": ""
+      }
+    }
+  ]
 }
